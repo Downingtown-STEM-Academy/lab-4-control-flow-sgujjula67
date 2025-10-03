@@ -15,8 +15,16 @@ let currentAverage = 67
 //let currentAverage = 95
 
 //insert your code here
-
+let isAverage: Bool = currentAverage >= 70 && currentAverage <= 90
+let isBelowAverage: Bool = currentAverage < 70
+let isAboveAverage: Bool = currentAverage > 90
 //print the results from each current average here.
-
+if isAboveAverage {
+    print("you are on the right track")
+}else if isAverage{
+ print("you are doing great but be better")
+}else{
+    print("you need to study more")
+}
 
 //: [Previous](@previous)  |  page 5 of 9  |  [Next](@next)
